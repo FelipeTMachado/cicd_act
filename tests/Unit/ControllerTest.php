@@ -21,4 +21,10 @@ class ControllerTest extends TestCase
 
         $this->assertIsArray($aqui, "Isso nao é um array");
     }
+
+    public function test_git(): void {
+        $aqui = ["ARRAY DO GIT"];
+
+        $this->assertIsArray($aqui, "Isso nao é um array do GIT");
+    }
 }
